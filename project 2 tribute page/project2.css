@@ -1,0 +1,100 @@
+body {
+    background: url('flag3.jpg')no-repeat center center/cover;
+    width: 1000px;
+    height: 1300px;
+    background-color: aquamarine;
+}
+
+.container {
+    border: 3px solid black;
+    width: 1000px;
+    height: 1150px;
+    padding: 50px;
+    position: relative;
+    top: 30px;
+    left: 200px;
+    bottom: 30px;
+    margin-bottom: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 4px 4px 40px orangered;
+
+}
+
+.image img {
+    width: 300px;
+    height: 350px;
+    border-radius: 50%;
+    position: relative;
+    left: 347px;
+    top: -11px;
+    border: 2px solid black;
+
+}
+
+.name #veer {
+    position: absolute;
+    top: 420px;
+    left: 352px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: orangered;
+    text-shadow: 3px 3px 20px orangered;
+    font-weight: bold;
+
+}
+
+.name #bhagat {
+    position: absolute;
+    top: 420px;
+    left: 460px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: white;
+    text-shadow: 3px 3px 20px black;
+    font-weight: bold;
+
+}
+
+.name #singh {
+    position: absolute;
+    top: 420px;
+    left: 620px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: green;
+    text-shadow: 3px 3px 20px green;
+    font-weight: bold;
+
+}
+
+.about {
+    position: relative;
+    top: 150px;
+    font-size: 18px;
+    /* text-align: center; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 0px;
+    top: -50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    position: absolute;
+    top: 1200px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+a:hover {
+    transform: scale(1.1);
+    color: black;
+    text-shadow: 3px 3px 20px red;
+}
